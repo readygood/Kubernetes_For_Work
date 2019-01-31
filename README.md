@@ -29,6 +29,8 @@ mirrorgooglecontainers/etcd-amd64:3.2.18
 
 mirrorgooglecontainers/pause:3.1
 
+registry.cn-hangzhou.aliyuncs.com/readygood/flannel:v0.10.0-amd64
+
 3.运行tag修改脚本image.sh
 
 ]# image.sh
