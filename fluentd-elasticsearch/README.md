@@ -1,3 +1,5 @@
+https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch
+
 # Elasticsearch Add-On
 
 This add-on consists of a combination of [Elasticsearch][elasticsearch],
