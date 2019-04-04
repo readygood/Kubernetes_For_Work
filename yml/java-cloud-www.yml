@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: java-cloud-www
+  name: java-cloud-www
+  namespace: prod
+spec:
+  ports:
+  - nodePort: 30200
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: java-cloud-www
+  type: NodePort
